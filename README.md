@@ -313,8 +313,11 @@ main {
 }
 ```
 
-```
-
+```css
+main {
+  display: grid;
+  grid-template-columns: 1fr 94rem 1fr;
+}
 ```
 
 ```
