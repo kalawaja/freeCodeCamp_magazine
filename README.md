@@ -320,55 +320,100 @@ main {
 }
 ```
 
+```css
+main {
+  display: grid;
+  grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) minmax(2rem, 1fr);
+}
 ```
 
+```css
+main {
+  display: grid;
+  grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) minmax(2rem, 1fr);
+  row-gap: 3rem;
+}
 ```
 
+```css
+.heading {
+  grid-column: 2 / 3;
+}
 ```
 
+```css
+.text {
+  grid-column: 2 / 3;
+}
 ```
 
+```css
+.heading {
+  grid-column: 2 / 3;
+  display: grid;
+}
 ```
 
+```css
+.heading {
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 ```
 
+```css
+.heading {
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 1.5rem;
+}
 ```
 
+```css
+.hero {
+  grid-column: 1 / -1;
+}
 ```
 
+```css
+.hero {
+  grid-column: 1 / -1;
+  position: relative;
+}
 ```
 
+```html
+          <img
+            src="https://cdn.freecodecamp.org/platform/universal/fcc_meta_1920X1080-indigo.png"
+            alt="freecodecamp logo"
+            loading="lazy"
+            class="hero-img"
+          />
+          <h1 class="hero-title">OUR NEW CURRICULUM</h1>
+          <p class="hero-subtitle">
+            Our efforts to restructure our curriculum with a more project-based
+            focus
+          </p>
 ```
 
+```css
+img {
+  width: 100%;
+  object-fit: cover;
+}
 ```
 
+```css
+.hero-title {
+  text-align: center;
+  color: orangered;
+  font-size: 8rem;
+}
 ```
 
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
+```css
 
 ```
 
